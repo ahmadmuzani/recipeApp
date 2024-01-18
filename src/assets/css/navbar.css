@@ -1,0 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/mars-brands');
+
+.title-navbar {
+    cursor: pointer;
+}
+
+.navbar {
+    font-family: 'Mars Brands', sans-serif;
+}

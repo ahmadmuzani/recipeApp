@@ -1,0 +1,241 @@
+@import url('https://fonts.cdnfonts.com/css/mars-brands');
+
+
+
+
+.suggest-title {
+    cursor: pointer;
+}
+
+
+.category-recipe {
+    font-size: 1.5rem;
+}
+
+.suggest-recipe {
+    font-size: 1.5rem;
+}
+
+#btn-category {
+    background-color: rgb(255, 209, 178);
+    color: white;
+}
+
+#imageCategory {
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+}
+
+.categorytext {
+    font-size: 1.7rem;
+}
+
+.form-search {}
+
+div .col-7 input {
+    background-color: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(1px);
+
+}
+
+.heading-cover {
+    font-size: 5rem;
+    text-shadow: 2px 2px 9px wheat;
+    font-family: 'Mars Brands', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 536px) {
+    .coverImg {
+        width: 100%;
+        height: 23rem;
+        margin-top: -175px;
+        position: absolute;
+        z-index: -1;
+
+    }
+
+    .heading-cover {
+        font-size: 2rem;
+        text-shadow: 2px 2px 9px wheat;
+
+        font-family: 'Mars Brands', sans-serif;
+    }
+
+    #imageCategory {
+        height: 100px;
+    }
+
+    .list-search {
+        position: absolute;
+        z-index: 2;
+        width: 200px;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+    #btn-category {
+        display: none;
+    }
+
+    .category-title {
+        /* display: none; */
+        font-size: 0.8rem;
+    }
+
+    .suggest-title {
+        font-size: 0.8rem;
+    }
+
+    #wrapper-heading-form {
+        margin-top: 10px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 537px) and (max-width: 767px) {
+    .coverImg {
+        width: 100%;
+        height: 25rem;
+        margin-top: -175px;
+        position: absolute;
+        z-index: -1;
+
+    }
+
+    .heading-cover {
+        font-size: 3rem;
+        text-shadow: 2px 2px 9px wheat;
+        font-family: 'Mars Brands', sans-serif;
+    }
+
+    .list-search {
+        position: absolute;
+        z-index: 2;
+        width: 290px;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+
+
+    .card-title {
+        font-size: 0.8rem;
+    }
+
+    #wrapper-heading-form {
+        margin-top: 90px;
+    }
+
+    #imageCategory {
+        height: 100px;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+    #btn-category {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .coverImg {
+        width: 100%;
+        height: 30rem;
+        margin-top: -175px;
+        position: absolute;
+        z-index: -2;
+    }
+
+    .heading-cover {
+        font-size: 4rem;
+        text-shadow: 2px 2px 9px wheat;
+        font-family: 'Mars Brands', sans-serif;
+    }
+
+    .list-search {
+        position: absolute;
+        z-index: 2;
+        width: 395px;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+
+
+
+    #imageCategory {
+        height: 150px;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    #wrapper-heading-form {
+        margin-top: 50px;
+    }
+
+    #btn-category {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .coverImg {
+        width: 100%;
+        height: 35rem;
+        margin-top: -140px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .list-search {
+        position: absolute;
+        z-index: 2;
+        width: 500px;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (min-width: 1600px) {
+    #wrapper-heading-form {
+        margin-top: 150px;
+    }
+
+    .list-search {
+        position: absolute;
+        z-index: 2;
+        width: 600px;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+
+    .coverImg {
+        width: 100%;
+        height: 37rem;
+        margin-top: -140px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .suggest-title {
+        font-size: 1rem;
+    }
+}
